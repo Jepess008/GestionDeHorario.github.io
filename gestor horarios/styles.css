@@ -1,0 +1,56 @@
+:root {
+  --primary-100: #2C3A4F;
+  --primary-200: #56647B;
+  --primary-300: #B4C2DC;
+  --accent-100: #FF4D4D;
+  --accent-200: #FFECDA;
+  --text-100: #FFFFFF;
+  --text-200: #E0E0E0;
+  --bg-100: #1A1F2B;
+  --bg-200: #292E3B;
+  --bg-300: #414654;
+}
+
+body {
+  background-color: var(--bg-100);
+  color: var(--text-200);
+}
+
+h1 {
+  color: var(--primary-200);
+}
+
+h2 {
+  color: var(--primary-200);
+}
+
+table {
+  background-color: var(--bg-200);
+  color: var(--text-100);
+}
+
+form label {
+  color: var(--text-100);
+}
+
+form .form-control {
+  background-color: var(--bg-300);
+  color: var(--text-100);
+}
+
+form .btn-primary {
+  background-color: var(--primary-100);
+  border-color: var(--primary-100);
+  color: var(--text-100);
+}
+
+form .btn-danger {
+  background-color: var(--accent-100);
+  border-color: var(--accent-100);
+  color: var(--text-100);
+}
+
+button.btn-primary,
+button.btn-danger {
+  margin: 5px;
+}
